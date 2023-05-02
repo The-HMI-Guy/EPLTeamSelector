@@ -17,12 +17,11 @@ const teams = [
   { id: 13, name: "Manchester City FC", logoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/1200px-Manchester_City_FC_badge.svg.png" },
   { id: 14, name: "Manchester United FC", logoUrl: "" },
   { id: 15, name: "Newcastle United", logoUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/1200px-Newcastle_United_Logo.svg.png" },
-  { id: 16, name: "Manchester United FC", logoUrl: "" },
-  { id: 17, name: "Nottingham Forest", logoUrl: "" },
-  { id: 18, name: "Southampton FC", logoUrl: "" },
-  { id: 19, name: "Tottenham Hotspur FC", logoUrl: "" },
-  { id: 20, name: "West Ham United", logoUrl: "" },
-  { id: 21, name: "Wolverhampton Wanderers", logoUrl: "" },
+  { id: 16, name: "Nottingham Forest", logoUrl: "" },
+  { id: 17, name: "Southampton FC", logoUrl: "" },
+  { id: 18, name: "Tottenham Hotspur FC", logoUrl: "" },
+  { id: 19, name: "West Ham United", logoUrl: "" },
+  { id: 20, name: "Wolverhampton Wanderers", logoUrl: "" },
   
   // Add other teams here
 ];
@@ -47,7 +46,7 @@ function App() {
   
     setWinner(null);
   
-    const shuffleDuration = 3000;
+    const shuffleDuration = 5000;
     const intervalDuration = 100;
     let elapsedTime = 0;
   
