@@ -1,24 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+
 .App {
-  font-family: Arial, sans-serif;
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  color: #4a4a4a;
+  margin-bottom: 1.5rem;
 }
 
 .label-container {
   display: flex;
   align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
 }
 
 .shuffle-button {
+  display: inline-block;
   margin-top: 2rem;
-  cursor: pointer;
+  padding: 12px 24px;
   background-color: #0066cc;
   border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
+  border-radius: 6px;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .shuffle-button:hover {
@@ -26,7 +57,28 @@
 }
 
 .winner {
-  margin-top: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   font-weight: bold;
   color: #0066cc;
+  height: 250px; /* Add a fixed height */
+}
+
+
+.winner img {
+  max-width: 200px;
+  max-height: 200px; /* Add a maximum height */
+  object-fit: contain; /* Add object-fit property */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+
+.winner h2 {
+  font-size: 1.5rem;
+  margin: 0;
 }
