@@ -22,7 +22,7 @@ const teams = [
   { id: 18, name: "Tottenham Hotspur FC", logoUrl: "" },
   { id: 19, name: "West Ham United", logoUrl: "" },
   { id: 20, name: "Wolverhampton Wanderers", logoUrl: "" },
-  
+  //Update the list of teams above. 
 ];
 
 function App() {
